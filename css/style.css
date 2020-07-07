@@ -22,13 +22,42 @@ li{
 .box{
     display: flex;
 }
-
-.cv{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin-bottom: 36px;
-    max-width: 700px;
+.flex1{
+    display:flex;
+    flex-direction: row;
 }
+
+.flex2{
+    display:flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+
+    min-height: 100vh;
+    position: fixed;
+    background-color: #f2f3f7;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-right: 40px;
+    padding-top: 0px;
+    width:300px;
+}
+
+.flex3{  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-left:350px;
+    max-width: 960px;
+}
+
+.pdf-reader{
+    width: 800px;
+    height: 600px;
+    
+}
+
 
 nav{
     text-align: center;
@@ -48,36 +77,42 @@ nav{
     border-color: #ffffff;
 }
 
-#flex1{
-    flex-direction: row;
+#photo_aside-asi{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border:solid;
+    border-width: 2px;
+    border-color: #000;
 }
 
-#flex2{
-    flex-direction: column; 
-    justify-content: flex-start;
-    align-items: center;
-
-    min-height: 100vh;
-    position: fixed;
-    background-color: #f2f3f7;
-    margin-left: 15px;
-    margin-top: 0px;
-    margin-right: 40px;
-    padding-top: 0px;
-    width:300px;
+#photo_aside-LISA{
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border:solid;
+    border-width: 10px;
+    border-color: #ffffff;
 }
 
-#flex3{  
-    flex-direction: column;
-    justify-content: center;
-    
-    margin-left:350px;
-    max-width: 700px;
-}
 
 #bio-text{
     text-align: justify;
 }
+
+.cv{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 36px;
+    max-width: 700px;
+}
+
 #coord{
     font-size: 18px;
     font-weight: bold;
