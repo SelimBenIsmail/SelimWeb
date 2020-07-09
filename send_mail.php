@@ -15,14 +15,18 @@
         $msg = $_POST['msg'];
         $to='selim.doms@gmail.com';
         $subject = ' new mail from the website';
+        $headers = array(
+            'From' => $mailS,
+            'Reply-To' => $mailS,
+            'X-Mailer' => 'PHP/' . phpversion()
+        );
 
         // afficher le résultat
         echo 'Thank you '. $nameS . '<br> Your message was succefully sent <br>'; 
-        $msg = ' New mail from ' . $mailS . ' to ' . $to . ': ';
-        echo '" ' .$msg . ' "';
+        //$msg = ' New mail from ' . $mailS . ' to ' . $to . ': ';
         echo 'from ' . $mailS . ' to ' . $to ;
-        //echo ' New mail from ' . $mailS . ' to ' . $to . ': <br>' . $msg;
-        mail($to,$subject,$msg);
+        //mail($to,$subject,$msg,);
+        mail($to,$subject,$msg,$headers);
         exit;
     // }
     ?>
