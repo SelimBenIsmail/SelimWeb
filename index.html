@@ -41,10 +41,10 @@
         <div class="flex3">
             <section id="bio">
                 <h2>Biography</h2>
-                <div id="bio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <div id="bio-text"> " Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Corrupti dicta similique libero voluptatem tempore voluptatum repellendus 
                     architecto eligendi neque natus aliquid, voluptates voluptas quidem cumque, 
-                    optio reprehenderit, soluta vel. Tempore!
+                    optio reprehenderit, soluta vel. Tempore! "
                 </div>
             </section>
             <section id="cv">
@@ -73,7 +73,7 @@
                         <li>
                             <h4>2018 <span class="tab"></span> Research Laboratory LISA-image from Polytechnic school of Brussels</h4>
                         <li>15 weeks Traineeship - Design and development of a tool to automate the images
-                            acquisition process for a photogrammetry application</li>
+                            acquisition process for a photogrammetry application.</li>
                         </li>
                         <li>
                             <h4>2011 - ... <span class="tab"></span> IKEA Anderlecht </h4>
@@ -128,22 +128,23 @@
             <section id="contact">
                 <h2>Contact me</h2>
                <div class="box" id="flex-coord">
-                    <div id="coord">
-                        <ul>
-                            <li>Selim Ben Ismail</li>
-                            <li>05, rue des cygnes bte 6</li>
-                            <li>1050 - Ixelles</li>
-                            <br>
-                            <li>+32471/27.62.67</li>
-                            <li> <a href="mailto:Selim.doms@gmail.com">Selim.doms@gmail.com </a></li>
-                        </ul>
-                    </div id="coord">
+                   <fieldset id="coord">
+                       <legend>Contact information</legend>                        
+                            <ul>
+                                <li>Selim Ben Ismail</li>
+                                <li>05, rue des cygnes bte 6</li>
+                                <li>1050 - Ixelles</li>
+                                <br>
+                                <li>+32471/27.62.67</li>
+                                <li> <a href="mailto:Selim.doms@gmail.com">Selim.doms@gmail.com </a></li>
+                            </ul>                       
+                   </fieldset>
                     
                     <div id="formulaire">
                         <form action="send_mail.php" method="post" id="sendMail">
-                            <label for="name-sender"> Your name:</label>
+                            <label for="name-sender"> (*) Your name:</label>
                             <input type="text" name="n-sender" id="name-sender" required>
-                            <label for="mail-sender"> Your e-mail adress: </label>
+                            <label for="mail-sender"> (*) Your e-mail adress: </label>
                             <input type="email" name="m-sender" id="mail-sender" required>
                             <label for="message">Type your message here </label>
                             <textarea name="msg" id="message" cols="50" rows="20" required></textarea>

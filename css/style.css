@@ -74,7 +74,9 @@ section{
 
 .pdf-reader{
     width: 800px;
-    height: 600px;  
+    height: 800px;  
+    border: solid;
+    border-width: 1px;
 }
 
 .text-aside{
@@ -125,6 +127,12 @@ section{
 
 #bio-text{
     text-align: justify;
+    border:solid;
+    border-width: 1px;
+    padding: 12px;
+    background-color: #f2f3f7;
+    width: 600px;
+    
 }
 
 
@@ -141,33 +149,42 @@ section{
     margin-left: 40px;
 }
 
-#coord{
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 32px;
-    border:solid;
-    border-width: 1px;
-    margin-top: 23px;
-    margin-right: 20px; 
-    width: 250px;
-    height: fit-content;
- 
-}
-
 #flex-coord{
     flex-direction: row;
     justify-content: space-around;
 }
 
+#coord {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    
+    border-width: 1px;
+    margin-top: 20px;
+    margin-right: 20px; 
+    width: 250px;
+    height: fit-content;
+}
+
+#coord legend{ 
+    font-weight:normal;
+
+}
+
+
 #sendMail{
     display: flex;
     flex-direction: column;
     padding: 10px;
-
+    line-height: 24px;
+}
+#sendMail input{
+    margin-bottom: 14px;
 }
 textarea{
     display:block;
     resize:none;
     overflow: auto;
+    margin-bottom: 8px;
 }
 
