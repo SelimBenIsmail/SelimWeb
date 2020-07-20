@@ -98,7 +98,7 @@ section{
     margin-top: 40px;
     margin-bottom: 20px;
     border:solid;
-    border-width: 5px;
+    border-width: 2px;
     border-color: #ffffff;
 }
 
@@ -129,7 +129,7 @@ section{
 
 #bio-text{
     text-align: justify;
-    border:solid;
+    border:none;
     border-width: 1px;
     padding: 12px;
     background-color: #f2f3f7;
