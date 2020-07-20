@@ -53,7 +53,6 @@ nav{
 }
 
 footer{
-    
     font-size: 10px;
 }
 
@@ -169,6 +168,11 @@ section{
     margin-left: 40px;
     font-family: 'Quicksand_bold';
 }
+
+#hard li{
+    margin-bottom: 6px;
+}
+
 #SSk{
     margin-left: 40px;
     font-family: 'Quicksand_bold';
