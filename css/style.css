@@ -1,28 +1,39 @@
 @font-face {
     font-family: 'Quicksand';
-    src: url('font/Quicksand_Book.otf');
+    src: url('Quicksand_Book.otf');
+}
+@font-face {
+    font-family: 'Quicksand_oblique';
+    src: url('Quicksand_Book_Oblique.otf');
+}
+@font-face {
+    font-family: 'Quicksand_bold';
+    src: url('Quicksand_Bold.otf');
 }
 body{
     background-color: #ffffff;
     font-family: 'Quicksand', Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     text-align:justify;
     line-height: 22px;
     margin-top: 0px;
 }
 h1,h2{
-   color: #000;
+   color: rgba(0, 0, 0, 0.452);
    font-family: 'Playfair Display', arial;
 }
 
 h3{
     color: rgba(12, 144, 177, 1);
-    margin-top: 40px;
     margin-bottom: 15px;
 }
+h4{
+    font-family: 'Quicksand_bold', Arial, Helvetica, sans-serif;
+}
+
 
 strong{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 li{
@@ -133,12 +144,13 @@ section{
 
 
 #bio-text{
+    font-family: 'Quicksand';
     text-align: justify;
     border:none;
     border-width: 1px;
     padding: 12px;
     background-color: #f2f3f7;
-    width: 600px;
+    width: 800px;
     
 }
 
