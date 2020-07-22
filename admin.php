@@ -12,11 +12,11 @@
         <?php
             if (isset($_POST['pwd']) AND $_POST['pwd'] ==  "kangourou"){
         ?>
-        <div class="flex2" >
+        <aside >
             <div class="photo" id="photo_aside" style="background-image:url(images/about.jpg)">
                 <!-- <img src="images/about.jpg" alt="photo de Selim Ben Ismail" style="display:none"> -->
             </div>
-        </div class="flex2">
+        </aside>
     
         <div class="flex3"> 
                 <section id="helloAdmin">
@@ -30,7 +30,6 @@
                         facere consectetur aperiam ex architecto tenetur fuga quos rem!
                     </p>
                 </section>
-  
         </div class="flex3">
         <?php
             }
