@@ -42,7 +42,7 @@ li{
     list-style-type: none;
 }
 .tab{
-    margin: 15px;
+    margin-right: 20px;
 }
 html {
     scroll-behavior: smooth;
@@ -164,7 +164,7 @@ body{
             box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.2);
             
         } 
-        
+
         section:hover{
                 border-left: solid 4px var(--colorh3);  
         } 
