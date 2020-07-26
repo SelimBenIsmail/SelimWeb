@@ -16,6 +16,7 @@
 }
 
 
+
 h1,h2{
     color: rgba(0, 0, 0, 0.452);
     font-family: Arial, Helvetica, sans-serif;
@@ -43,6 +44,9 @@ li{
 .tab{
     margin: 15px;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     display:flex;
     flex-direction: row;
@@ -56,7 +60,7 @@ body{
     aside{
         display:flex;
         flex-direction: column; 
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
         width:300px;
         height: 100%;
@@ -77,14 +81,14 @@ body{
         } 
         .text-aside{
             text-align: center;
-            margin-bottom: 40px;
+            /* margin-bottom: 40px; */
             font-size: 12px
         }
 
         nav{
             text-align: center;
             margin-left:-45px;
-            margin-bottom: 50px;
+            /* margin-bottom: 50px; */
             line-height: 35px;
             font-size: 20px;
         }
@@ -115,7 +119,7 @@ body{
             height: 100px;
             border-radius: 50%;
             margin-top: 50px;
-            margin-bottom: 70px;
+            /* margin-bottom: 70px; */
             border:none;
             border-width: 1px;
             border-color: #000;
@@ -128,7 +132,7 @@ body{
             height: 200px;
             border-radius: 25px;
             margin-top: 50px;
-            margin-bottom: 70px;
+            margin-bottom: 20px;
             border:solid;
             border-width: 4px;
             border-color: #ffffff;
@@ -160,9 +164,10 @@ body{
             box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.2);
             
         } 
-            section:not(#bio):hover{
-                    border-left: solid 4px var(--colorh3);  
-            } 
+        
+        section:hover{
+                border-left: solid 4px var(--colorh3);  
+        } 
     
         #bio-text{
             font-family: 'Quicksand';

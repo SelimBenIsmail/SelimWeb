@@ -20,7 +20,6 @@
             'Reply-To' => $mailS,
             'X-Mailer' => 'PHP/' . phpversion()
         );
-
         // afficher le résultat
         echo 'Thank you '. $nameS . '<br> Your message was succefully sent <br>'; 
         //$msg = ' New mail from ' . $mailS . ' to ' . $to . ': ';
