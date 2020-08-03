@@ -251,6 +251,12 @@ textarea{
     border: solid;
     border-width: 1px;
 }
+#download-asi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width : 767px){
     aside{
         display: none;
