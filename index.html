@@ -31,16 +31,19 @@
         </nav>
         <footer> 
             <a href="login.php">@</a>
-            <script> var dateUpdate = "last update" +
-                document.write(new Date().getMonth()) + "/" 
-                document.write(new Date().getDate()) + "/"+
-                document.write(new Date().getFullYear());
+            <script> 
+                document.write(new Date().getDate() + "/" + (new Date().getMonth()+1) + "/"+ new Date().getFullYear());
             </script>
         </footer>
     </aside>
 
     <div class="flex2">
         <div class="flex3">
+            <header>
+                <div class="burger">
+                    
+                </div>
+            </header>
             <section id="bio">
                 <h2 style="display:none">Biography </h2>
                 <div id="bio-text"> 
