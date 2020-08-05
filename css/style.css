@@ -128,6 +128,18 @@ footer{
     padding: 10px;
 }
 
+.button-download-aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:none 2px #000;
+    box-shadow: 1px 0px 4px  rgba(0,0,0,0.3), -1px 0px 4px rgba(0,0,0,0.3); 
+    margin-top: 20px;
+}
+
 #photo_aside{
     background-size: cover;
     width: 200px;
@@ -135,9 +147,6 @@ footer{
     border-radius: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* border:none;
-    border-width: 6px;
-    border-color: var(--colorh3); */
     box-shadow:  1px 1px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -147,7 +156,6 @@ footer{
     height: 100px;
     border-radius: 50%;
     margin-top: 50px;
-    /* margin-bottom: 70px; */
     border:none;
     border-width: 1px;
     border-color: #000;
@@ -181,10 +189,7 @@ display:flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 80px;
-/* margin-left: auto;
-margin-right: auto; */
-/* max-width: 750px;       */
+margin-top: 60px;
 }
 
 
