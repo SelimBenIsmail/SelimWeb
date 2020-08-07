@@ -301,6 +301,10 @@ article{
 article a:visited{
     color:inherit;
 }
+
+article a{
+    text-decoration: none;
+}
 #flex-publications{
     display:flex;
     flex-direction: column;
