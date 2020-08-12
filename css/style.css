@@ -136,7 +136,7 @@ footer{
     height: 60px;
     border-radius: 50%;
     border:none 2px #000;
-    box-shadow: 1px 0px 4px  rgba(0,0,0,0.3), -1px 0px 4px rgba(0,0,0,0.3); 
+    box-shadow: 1px 0px 4px  rgba(0,0,0,0.8), -1px 0px 4px rgba(0,0,0,0.6); 
     margin-top: 20px;
 }
 
@@ -298,9 +298,13 @@ article{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.349);
     margin-bottom:20px;
 }
+article:hover{
+    border-left: red 4px solid;
+}
 article a:visited{
     color:inherit;
 }
+
 
 article a{
     text-decoration: none;
@@ -311,9 +315,6 @@ article a{
     padding: 25px;
 }
 
-section#publications{
-    display:none;
-}
 
 @media screen and (max-width : 767px){
     aside{
